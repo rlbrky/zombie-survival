@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd0f5050f98c5d489199bcaea79d7d4, type: 3}
+  m_Name: Glock
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: e24d3e0b8afdfe044861848e2dc2e116, type: 3}
+  weaponPrefab: {fileID: 4001013144905581867, guid: f069ec0aed89cd44cb85d39bfaa33064,
+    type: 3}
+  ammoPrefab: {fileID: 323391145286801936, guid: 5d85a3ae3eab0dc4694678fc5ba5cc70,
+    type: 3}
+  fireSFX: {fileID: 8300000, guid: 0dbb7b77f85f83346b4a0d7d84ed83b6, type: 3}
+  reloadSFX: {fileID: 8300000, guid: b3600d2d5ed6f8841a32316f3ae07f2c, type: 3}
+  damage: 5
+  fireRate: 0.7
+  reloadTime: 0.8
+  ammo: 20
